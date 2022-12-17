@@ -57,22 +57,43 @@
       {"id": "robodendron", "name": "Robodendron"},
       {"id": "owo", "name": "OWO"}
     ],
-    "gameIDs": [1001, 1002, 1003, 1004, 1005],
+    "gameIDs": [1001, 1002, 1003, 1004, 1005, 1006],
     "gameTypes": {
       "1001": "noLoss",
       "1002": "noLoss",
       "1003": "noLoss",
       "1004": "oneLoss",
-      "1005": "oneLoss"
+      "1005": "oneLoss",
+      "1006": "firstFinal"
     },
-    "noLossQueue": [{"id": "gibibot", "name": "GibiBot"}],
+    "noLossQueue": [],
     "oneLossQueue": [],
-    "eliminatedRobots": [{"id": "valdis", "name": "Valdis"}],
+    "eliminatedRobots": [
+      {"id": "valdis", "name": "Valdis"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
     "robotStartingBaskets": {
-      "gibibot": ["blue", "blue", "magenta", "blue", "magenta", "magenta"],
+      "gibibot": [
+        "blue",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "magenta",
+        "blue"
+      ],
       "valdis": ["magenta", "blue", "blue", "blue", "magenta"],
       "robodendron": ["blue", "magenta", "blue", "magenta", "blue", "magenta"],
-      "owo": ["blue", "magenta", "blue", "magenta", "blue", "blue", "blue"]
+      "owo": [
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "blue",
+        "blue",
+        "magenta"
+      ]
     },
     "hasEnded": false
   }
