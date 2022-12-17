@@ -30,22 +30,23 @@
       {"id": "robodendron", "name": "Robodendron"}
     ],
     "roundCount": 4,
-    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
     "byes": [
       {"robotID": "robodendron"},
       {"robotID": "teletupsud"},
-      {"robotID": "valdis"}
+      {"robotID": "valdis"},
+      {"robotID": "jackbot"}
     ],
     "robotStartingBaskets": {
-      "valdis": ["magenta", "blue"],
-      "snax": ["blue", "magenta", "blue"],
-      "teletupsud": ["magenta", "blue"],
-      "placeholder": ["blue", "magenta", "blue"],
-      "jurto": ["magenta", "magenta", "magenta"],
-      "owo": ["blue", "magenta", "blue"],
-      "gibibot": ["blue", "blue", "magenta"],
+      "valdis": ["magenta", "blue", "blue"],
+      "snax": ["blue", "magenta", "blue", "magenta"],
+      "teletupsud": ["magenta", "blue", "magenta"],
+      "placeholder": ["blue", "magenta", "blue", "magenta"],
+      "jurto": ["magenta", "magenta", "magenta", "blue"],
+      "owo": ["blue", "magenta", "blue", "magenta"],
+      "gibibot": ["blue", "blue", "magenta", "blue"],
       "jackbot": ["magenta", "blue", "magenta"],
-      "robodendron": ["blue", "magenta"]
+      "robodendron": ["blue", "magenta", "blue"]
     },
     "hasEnded": false
   }
