@@ -12,11 +12,13 @@
       "scores": [
         [
           {"time": 1671288009607, "isValid": true},
-          {"time": 1671288026613, "isValid": true}
+          {"time": 1671288026613, "isValid": true},
+          {"time": 1671288048830, "isValid": true}
         ],
         [
           {"time": 1671288031147, "isValid": true},
-          {"time": 1671288038748, "isValid": true}
+          {"time": 1671288038748, "isValid": true},
+          {"time": 1671288049175, "isValid": true}
         ]
       ],
       "fouls": [[], []],
