@@ -332,7 +332,8 @@
                 {"time": 1671278972194, "isValid": true},
                 {"time": 1671279014622, "isValid": true},
                 {"time": 1671279018632, "isValid": true},
-                {"time": 1671279052538, "isValid": true}
+                {"time": 1671279052538, "isValid": true},
+                {"time": 1671279063680, "isValid": true}
               ],
               [
                 {"time": 1671278974689, "isValid": true},
@@ -341,15 +342,15 @@
             ],
             "fouls": [[], [{"time": 1671278981542}, {"time": 1671279034938}]],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
+            "hasEnded": true,
             "isConfirmed": false,
-            "duration": 44715,
+            "duration": 60067,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1671278957016, "endTime": 1671278976246},
               {"startTime": 1671279010113, "endTime": 1671279022200},
-              {"startTime": 1671279039147, "endTime": null}
+              {"startTime": 1671279039147, "endTime": 1671279067897}
             ]
           }
         ],
@@ -468,7 +469,8 @@
             {"time": 1671278972194, "isValid": true},
             {"time": 1671279014622, "isValid": true},
             {"time": 1671279018632, "isValid": true},
-            {"time": 1671279052538, "isValid": true}
+            {"time": 1671279052538, "isValid": true},
+            {"time": 1671279063680, "isValid": true}
           ],
           [
             {"time": 1671278974689, "isValid": true},
@@ -477,15 +479,15 @@
         ],
         "fouls": [[], [{"time": 1671278981542}, {"time": 1671279034938}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
+        "hasEnded": true,
         "isConfirmed": false,
-        "duration": 44716,
+        "duration": 60067,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1671278957016, "endTime": 1671278976246},
           {"startTime": 1671279010113, "endTime": 1671279022200},
-          {"startTime": 1671279039147, "endTime": null}
+          {"startTime": 1671279039147, "endTime": 1671279067897}
         ]
       }
     ],
