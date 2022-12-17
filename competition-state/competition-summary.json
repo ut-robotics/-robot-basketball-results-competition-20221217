@@ -1135,10 +1135,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 5,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1671284070526, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1298,77 +1298,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 13,
+    "id": 14,
     "robots": [
-      {"id": "teletupsud", "name": "Teletupsud"},
-      {"id": "valdis", "name": "Valdis"}
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "snax", "name": "snäx"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1671283688454, "isValid": true},
-            {"time": 1671283753865, "isValid": true}
-          ]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60067,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1671283677366, "endTime": 1671283695840},
-          {"startTime": 1671283748339, "endTime": 1671283789932}
-        ]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1671283912252, "isValid": true},
-            {"time": 1671283919261, "isValid": true},
-            {"time": 1671283923940, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1671283898896}, {"time": 1671283935379}]],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60047,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 6,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1671283856283, "endTime": 1671283876446},
-          {"startTime": 1671283907339, "endTime": 1671283924139},
-          {"startTime": 1671283964744, "endTime": 1671283987828}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1671284070526, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "valdis", "name": "Valdis"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.81, -0.01],
-      [1.81, 0.01],
-      [-1.07, 0.2],
-      [1.07, -0.2],
-      [2, -1.44],
-      [-2, 1.44],
-      [-0.84, -0.91],
-      [0.84, 0.91],
-      [0.03, -1.41],
-      [-0.03, 1.41]
+      [0.94, 1.21],
+      [-0.94, -1.21],
+      [0.79, 0.3],
+      [-0.79, -0.3],
+      [-2.06, 1.27],
+      [2.06, -1.27],
+      [0.99, 0.69],
+      [-0.99, -0.69],
+      [-0.54, -1.26],
+      [0.54, 1.26]
     ]
   }
 }
