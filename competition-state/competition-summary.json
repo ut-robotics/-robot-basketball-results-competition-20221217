@@ -979,15 +979,21 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [],
+              [
+                {"time": 1671283339896, "isValid": true},
+                {"time": 1671283342860, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 10588,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1671283332275, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1072,85 +1078,46 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 11,
+    "id": 12,
     "robots": [
-      {"id": "robodendron", "name": "Robodendron"},
-      {"id": "owo", "name": "OWO"}
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "gibibot", "name": "GibiBot"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
+          [],
           [
-            {"time": 1671283010922, "isValid": true},
-            {"time": 1671283018099, "isValid": true}
-          ],
-          [
-            {"time": 1671282990874, "isValid": true},
-            {"time": 1671282994919, "isValid": true},
-            {"time": 1671282998762, "isValid": true},
-            {"time": 1671283003880, "isValid": true},
-            {"time": 1671283013599, "isValid": true},
-            {"time": 1671283020625, "isValid": true},
-            {"time": 1671283030245, "isValid": true}
+            {"time": 1671283339896, "isValid": true},
+            {"time": 1671283342860, "isValid": true}
           ]
         ],
         "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 49041,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1671282983339, "endTime": 1671283032380}]
-      },
-      {
-        "scores": [
-          [{"time": 1671283091644, "isValid": true}],
-          [
-            {"time": 1671283085455, "isValid": true},
-            {"time": 1671283088156, "isValid": true},
-            {"time": 1671283097485, "isValid": true},
-            {"time": 1671283142087, "isValid": true},
-            {"time": 1671283176645, "isValid": true},
-            {"time": 1671283191144, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1671283103422}, {"time": 1671283154030}], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60074,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 10589,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1671283079731, "endTime": 1671283098387},
-          {"startTime": 1671283136856, "endTime": 1671283145135},
-          {"startTime": 1671283168384, "endTime": 1671283201523}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1671283332275, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "owo", "name": "OWO"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.21, -0.1],
-      [-1.21, 0.1],
-      [1.68, 0.01],
-      [-1.68, -0.01],
-      [-1.51, 0.67],
-      [1.51, -0.67],
-      [1.47, 0.98],
-      [-1.47, -0.98],
-      [0.26, 0.98],
-      [-0.26, -0.98]
+      [-0.45, -1.44],
+      [0.45, 1.44],
+      [0.49, -0.81],
+      [-0.49, 0.81],
+      [1.37, -1.37],
+      [-1.37, 1.37],
+      [1.35, 0.6],
+      [-1.35, -0.6],
+      [-0.68, 0.1],
+      [0.68, -0.1]
     ]
   }
 }
