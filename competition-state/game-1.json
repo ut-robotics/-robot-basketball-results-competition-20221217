@@ -54,7 +54,8 @@
       "runs": [
         {"startTime": 1671274071065, "endTime": 1671274078608},
         {"startTime": 1671274125803, "endTime": 1671274130222},
-        {"startTime": 1671274152309, "endTime": 1671274176220}
+        {"startTime": 1671274152309, "endTime": 1671274176220},
+        {"startTime": 1671274208184, "endTime": null}
       ]
     }
   ],
