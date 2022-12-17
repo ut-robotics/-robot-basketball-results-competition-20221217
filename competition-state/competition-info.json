@@ -66,11 +66,12 @@
       "1005": "oneLoss",
       "1006": "firstFinal"
     },
-    "noLossQueue": [],
+    "noLossQueue": [{"id": "gibibot", "name": "GibiBot"}],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "valdis", "name": "Valdis"},
-      {"id": "robodendron", "name": "Robodendron"}
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "owo", "name": "OWO"}
     ],
     "robotStartingBaskets": {
       "gibibot": [
@@ -95,6 +96,6 @@
         "magenta"
       ]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
