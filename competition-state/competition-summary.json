@@ -3,7 +3,8 @@
   "name": "Robot Basketball Competition 2022-12-17",
   "robots": [
     {"id": "owo", "name": "OWO"},
-    {"id": "teletupsud", "name": "Teletupsud"}
+    {"id": "teletupsud", "name": "Teletupsud"},
+    {"id": "robodendron", "name": "Robodendron"}
   ],
   "tournament": null
 }
