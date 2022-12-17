@@ -8,7 +8,8 @@
     {"id": "jurto", "name": "Kivipallur Jürto"},
     {"id": "jackbot", "name": "Jackbot"},
     {"id": "gibibot", "name": "GibiBot"},
-    {"id": "snax", "name": "snäx"}
+    {"id": "snax", "name": "snäx"},
+    {"id": "placeholder", "name": "%placeholder%"}
   ],
   "tournament": null
 }
