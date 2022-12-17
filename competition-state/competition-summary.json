@@ -247,7 +247,8 @@
                 {"time": 1671275436876, "isValid": true},
                 {"time": 1671275547557, "isValid": true},
                 {"time": 1671275559768, "isValid": true},
-                {"time": 1671275586429, "isValid": true}
+                {"time": 1671275586429, "isValid": true},
+                {"time": 1671275605865, "isValid": true}
               ]
             ],
             "fouls": [
@@ -446,7 +447,8 @@
             {"time": 1671275436876, "isValid": true},
             {"time": 1671275547557, "isValid": true},
             {"time": 1671275559768, "isValid": true},
-            {"time": 1671275586429, "isValid": true}
+            {"time": 1671275586429, "isValid": true},
+            {"time": 1671275605865, "isValid": true}
           ]
         ],
         "fouls": [
