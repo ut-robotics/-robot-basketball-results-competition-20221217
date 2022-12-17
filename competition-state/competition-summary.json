@@ -9,7 +9,8 @@
     {"id": "jackbot", "name": "Jackbot"},
     {"id": "gibibot", "name": "GibiBot"},
     {"id": "snax", "name": "snäx"},
-    {"id": "placeholder", "name": "%placeholder%"}
+    {"id": "placeholder", "name": "%placeholder%"},
+    {"id": "valdis", "name": "Valdis"}
   ],
   "tournament": null
 }
