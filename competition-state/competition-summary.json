@@ -1228,10 +1228,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1671284677249, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1354,96 +1354,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 14,
+    "id": 15,
     "robots": [
-      {"id": "robodendron", "name": "Robodendron"},
-      {"id": "snax", "name": "snäx"}
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "jurto", "name": "Kivipallur Jürto"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [],
-          [
-            {"time": 1671284087904, "isValid": true},
-            {"time": 1671284094548, "isValid": true},
-            {"time": 1671284094914, "isValid": false},
-            {"time": 1671284153969, "isValid": true},
-            {"time": 1671284225126, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1671284162553}], [{"time": 1671284120388}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60022,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1671284070526, "endTime": 1671284099859},
-          {"startTime": 1671284141643, "endTime": 1671284153044},
-          {"startTime": 1671284217506, "endTime": 1671284236794}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1671284352154, "isValid": true},
-            {"time": 1671284359219, "isValid": true},
-            {"time": 1671284359309, "isValid": true}
-          ],
-          [{"time": 1671284313555, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1671284319939}, {"time": 1671284424033}], []],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60090,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1671284291576, "endTime": 1671284313567},
-          {"startTime": 1671284346561, "endTime": 1671284370619},
-          {"startTime": 1671284400833, "endTime": 1671284409002},
-          {"startTime": 1671284444849, "endTime": 1671284450721}
-        ]
-      },
-      {
-        "scores": [[{"time": 1671284576779, "isValid": true}], []],
-        "fouls": [[], [{"time": 1671284550087}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60097,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1671284506651, "endTime": 1671284544819},
-          {"startTime": 1671284570941, "endTime": 1671284592870}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1671284677249, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "robodendron", "name": "Robodendron"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.94, 1.21],
-      [-0.94, -1.21],
-      [0.79, 0.3],
-      [-0.79, -0.3],
-      [-2.06, 1.27],
-      [2.06, -1.27],
-      [0.99, 0.69],
-      [-0.99, -0.69],
-      [-0.54, -1.26],
-      [0.54, 1.26]
+      [-0.47, 1.07],
+      [0.47, -1.07],
+      [-2.07, 0.43],
+      [2.07, -0.43],
+      [-0.39, 0.15],
+      [0.39, -0.15],
+      [1.33, -0.15],
+      [-1.33, 0.15],
+      [-1.39, -0.93],
+      [1.39, 0.93]
     ]
   }
 }
