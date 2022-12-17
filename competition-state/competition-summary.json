@@ -6,7 +6,8 @@
     {"id": "teletupsud", "name": "Teletupsud"},
     {"id": "robodendron", "name": "Robodendron"},
     {"id": "jurto", "name": "Kivipallur Jürto"},
-    {"id": "jackbot", "name": "Jackbot"}
+    {"id": "jackbot", "name": "Jackbot"},
+    {"id": "gibibot", "name": "GibiBot"}
   ],
   "tournament": null
 }
