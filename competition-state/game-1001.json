@@ -62,7 +62,8 @@
           {"time": 1671286135363, "isValid": true},
           {"time": 1671286141279, "isValid": true},
           {"time": 1671286146896, "isValid": true},
-          {"time": 1671286155346, "isValid": true}
+          {"time": 1671286155346, "isValid": true},
+          {"time": 1671286165439, "isValid": true}
         ],
         []
       ],
@@ -71,7 +72,7 @@
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1671286122362, "endTime": null}]
+      "runs": [{"startTime": 1671286122362, "endTime": 1671286169573}]
     }
   ],
   "ballPlacement": [
