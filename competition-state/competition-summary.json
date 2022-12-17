@@ -804,7 +804,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[{"time": 1671282188564, "isValid": true}], []],
@@ -843,21 +843,35 @@
               ],
               [{"time": 1671282822535, "isValid": true}]
             ],
-            "fouls": [[], [{"time": 1671282758811}, {"time": 1671282829939}]],
+            "fouls": [
+              [{"time": 1671282871907}],
+              [
+                {"time": 1671282758811},
+                {"time": 1671282829939},
+                {"time": 1671282865238}
+              ]
+            ],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 42107,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60006,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1671282723218, "endTime": 1671282747017},
               {"startTime": 1671282804720, "endTime": 1671282823024},
-              {"startTime": 1671282849134, "endTime": null}
+              {"startTime": 1671282849134, "endTime": 1671282859758},
+              {"startTime": 1671282881499, "endTime": 1671282888778}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "jurto", "name": "Kivipallur Jürto"},
+          "roundWinCount": 2,
+          "roundLossCount": 1,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [0.14, -0.53],
@@ -956,17 +970,12 @@
       {
         "robot": {"id": "jackbot", "name": "Jackbot"},
         "score": 0,
-        "tieBreakScore": 4.4
-      },
-      {
-        "robot": {"id": "jurto", "name": "Kivipallur Jürto"},
-        "score": 0.9,
-        "tieBreakScore": 1.9
+        "tieBreakScore": 5.3
       },
       {
         "robot": {"id": "teletupsud", "name": "Teletupsud"},
         "score": 1,
-        "tieBreakScore": 1.5
+        "tieBreakScore": 3.3
       },
       {
         "robot": {"id": "robodendron", "name": "Robodendron"},
@@ -989,9 +998,14 @@
         "tieBreakScore": 3.5
       },
       {
+        "robot": {"id": "jurto", "name": "Kivipallur Jürto"},
+        "score": 1.8,
+        "tieBreakScore": 2.9
+      },
+      {
         "robot": {"id": "owo", "name": "OWO"},
         "score": 1.9,
-        "tieBreakScore": 2.4
+        "tieBreakScore": 3.3
       },
       {
         "robot": {"id": "gibibot", "name": "GibiBot"},
@@ -1020,7 +1034,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[{"time": 1671282188564, "isValid": true}], []],
@@ -1059,21 +1073,35 @@
           ],
           [{"time": 1671282822535, "isValid": true}]
         ],
-        "fouls": [[], [{"time": 1671282758811}, {"time": 1671282829939}]],
+        "fouls": [
+          [{"time": 1671282871907}],
+          [
+            {"time": 1671282758811},
+            {"time": 1671282829939},
+            {"time": 1671282865238}
+          ]
+        ],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 42107,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60006,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1671282723218, "endTime": 1671282747017},
           {"startTime": 1671282804720, "endTime": 1671282823024},
-          {"startTime": 1671282849134, "endTime": null}
+          {"startTime": 1671282849134, "endTime": 1671282859758},
+          {"startTime": 1671282881499, "endTime": 1671282888778}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "jurto", "name": "Kivipallur Jürto"},
+      "roundWinCount": 2,
+      "roundLossCount": 1,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [0.14, -0.53],
