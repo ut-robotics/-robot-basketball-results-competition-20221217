@@ -48,6 +48,29 @@
       "jackbot": ["magenta", "blue", "magenta"],
       "robodendron": ["blue", "magenta", "blue"]
     },
+    "hasEnded": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "gibibot", "name": "GibiBot"},
+      {"id": "valdis", "name": "Valdis"},
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "owo", "name": "OWO"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "owo", "name": "OWO"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "gibibot": ["blue", "blue", "magenta", "blue", "magenta"],
+      "valdis": ["magenta", "blue", "blue", "blue"],
+      "robodendron": ["blue", "magenta", "blue"],
+      "owo": ["blue", "magenta", "blue", "magenta"]
+    },
     "hasEnded": false
   }
 }
