@@ -37,13 +37,14 @@
         [{"time": 1671284841749}]
       ],
       "baskets": ["blue", "magenta"],
-      "hasEnded": false,
+      "hasEnded": true,
       "isConfirmed": false,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1671284791029, "endTime": 1671284827097},
         {"startTime": 1671284883386, "endTime": 1671284899649},
-        {"startTime": 1671284953232, "endTime": 1671284955129}
+        {"startTime": 1671284953232, "endTime": 1671284955129},
+        {"startTime": 1671284976984, "endTime": 1671284982784}
       ]
     }
   ],
