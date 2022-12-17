@@ -12,5 +12,37 @@
     {"id": "placeholder", "name": "%placeholder%"},
     {"id": "valdis", "name": "Valdis"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "valdis", "name": "Valdis"},
+      {"id": "snax", "name": "snäx"},
+      {"id": "teletupsud", "name": "Teletupsud"},
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "gibibot", "name": "GibiBot"},
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "roundCount": 4,
+    "gameIDs": [1, 2, 3, 4],
+    "byes": [{"robotID": "robodendron"}],
+    "robotStartingBaskets": {
+      "valdis": ["magenta"],
+      "snax": ["blue"],
+      "teletupsud": ["magenta"],
+      "placeholder": ["blue"],
+      "jurto": ["magenta"],
+      "owo": ["blue"],
+      "gibibot": ["blue"],
+      "jackbot": ["magenta"],
+      "robodendron": []
+    },
+    "hasEnded": false
+  }
 }

@@ -12,5 +12,225 @@
     {"id": "placeholder", "name": "%placeholder%"},
     {"id": "valdis", "name": "Valdis"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "valdis", "name": "Valdis"},
+      {"id": "snax", "name": "snäx"},
+      {"id": "teletupsud", "name": "Teletupsud"},
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "gibibot", "name": "GibiBot"},
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "roundCount": 4,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "valdis", "name": "Valdis"},
+          {"id": "snax", "name": "snäx"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [2.13, -0.54],
+          [-2.13, 0.54],
+          [-0.58, 0.45],
+          [0.58, -0.45],
+          [1.38, -0.06],
+          [-1.38, 0.06],
+          [2.13, 0.6],
+          [-2.13, -0.6],
+          [1.38, -0.49],
+          [-1.38, 0.49]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "teletupsud", "name": "Teletupsud"},
+          {"id": "placeholder", "name": "%placeholder%"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.76, -0.36],
+          [-0.76, 0.36],
+          [0.88, 0.23],
+          [-0.88, -0.23],
+          [-2.09, 0.41],
+          [2.09, -0.41],
+          [0.26, -1.32],
+          [-0.26, 1.32],
+          [1.7, 1.44],
+          [-1.7, -1.44]
+        ]
+      },
+      {
+        "id": 3,
+        "robots": [
+          {"id": "jurto", "name": "Kivipallur Jürto"},
+          {"id": "owo", "name": "OWO"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.25, -1.31],
+          [-0.25, 1.31],
+          [-2.05, 0.76],
+          [2.05, -0.76],
+          [-1.96, -0.58],
+          [1.96, 0.58],
+          [-0.18, -0.92],
+          [0.18, 0.92],
+          [-1.45, -1.25],
+          [1.45, 1.25]
+        ]
+      },
+      {
+        "id": 4,
+        "robots": [
+          {"id": "gibibot", "name": "GibiBot"},
+          {"id": "jackbot", "name": "Jackbot"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.26, 0.11],
+          [-1.26, -0.11],
+          [0.16, -1.02],
+          [-0.16, 1.02],
+          [2.04, 0.46],
+          [-2.04, -0.46],
+          [-1.47, 1.01],
+          [1.47, -1.01],
+          [-0.71, -1.02],
+          [0.71, 1.02]
+        ]
+      }
+    ],
+    "byes": [{"robotID": "robodendron"}],
+    "robotScores": [
+      {
+        "robot": {"id": "valdis", "name": "Valdis"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {"robot": {"id": "snax", "name": "snäx"}, "score": 0, "tieBreakScore": 0},
+      {
+        "robot": {"id": "teletupsud", "name": "Teletupsud"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "placeholder", "name": "%placeholder%"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "jurto", "name": "Kivipallur Jürto"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {"robot": {"id": "owo", "name": "OWO"}, "score": 0, "tieBreakScore": 0},
+      {
+        "robot": {"id": "gibibot", "name": "GibiBot"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "jackbot", "name": "Jackbot"},
+        "score": 0,
+        "tieBreakScore": 0
+      },
+      {
+        "robot": {"id": "robodendron", "name": "Robodendron"},
+        "score": 1,
+        "tieBreakScore": 0
+      }
+    ],
+    "robotStartingBaskets": {
+      "valdis": ["magenta"],
+      "snax": ["blue"],
+      "teletupsud": ["magenta"],
+      "placeholder": ["blue"],
+      "jurto": ["magenta"],
+      "owo": ["blue"],
+      "gibibot": ["blue"],
+      "jackbot": ["magenta"],
+      "robodendron": []
+    },
+    "hasEnded": false
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "id": 4,
+  "robots": [
+    {"id": "gibibot", "name": "GibiBot"},
+    {"id": "jackbot", "name": "Jackbot"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.26, 0.11],
+    [-1.26, -0.11],
+    [0.16, -1.02],
+    [-0.16, 1.02],
+    [2.04, 0.46],
+    [-2.04, -0.46],
+    [-1.47, 1.01],
+    [1.47, -1.01],
+    [-0.71, -1.02],
+    [0.71, 1.02]
+  ]
+}
